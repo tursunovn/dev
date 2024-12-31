@@ -16,7 +16,10 @@ init(){
 	if [[ ! -d states  ]]; then
 		mkdir states
 	fi
-	touch /states/running
+	touch /home/nodir/Desktop/monitoring/states/running
+}
+
+init
 
 
 while [[ -f states/running  ]]; do
